@@ -1,0 +1,316 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F9F9F9;
+    color: #000000;
+}
+
+.logo-container {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.bg {
+    /* BG */
+position: absolute;
+width: 1440px;
+height: 1984px;
+left: 0px;
+top: 0px;
+background: #F9F9F9;
+}
+
+.stats {
+    /* stats */
+width: 56px;
+height: 27px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17.8286px;
+line-height: 27px;
+/* identical to box height, or 150% */
+text-transform: uppercase;
+color: #606060;
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+.sell {
+    /* Sell */
+width: 43px;
+height: 27px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17.8286px;
+line-height: 27px;
+/* identical to box height, or 150% */
+text-transform: uppercase;
+color: #606060;
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.creators {
+    /* creators */
+width: 95px;
+height: 27px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17.8286px;
+line-height: 27px;
+/* identical to box height, or 150% */
+text-transform: uppercase;
+color: #606060;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.discover {
+    /* Discover */
+width: 92px;
+height: 27px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 17.8286px;
+line-height: 27px;
+/* identical to box height, or 150% */
+text-transform: uppercase;
+color: #141416;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.connectwallet {
+/* buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8.09px;
+
+position: absolute;
+width: 199.52px;
+height: 57.34px;
+right: 96px;
+top: 45px;
+
+
+
+/* button/primary */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16.1721px 24.2582px;
+gap: 10.11px;
+
+width: 199.52px;
+height: 57.34px;
+
+background: #141416;
+border-radius: 16.1721px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Connect Wallet */
+
+width: 151px;
+height: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16.1721px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.logo {
+    /* Logo */
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 93px;
+top: 48px;
+
+
+
+/* Wave */
+
+position: absolute;
+width: 53px;
+height: 53px;
+left: 93px;
+top: 48px;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 53px;
+height: 53px;
+right: 1294px;
+top: 48px;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 44.17px;
+height: 7.73px;
+right: 1298.42px;
+top: 79.71px;
+
+background: #141416;
+
+
+/* Vector */
+
+position: absolute;
+width: 44.17px;
+height: 7.73px;
+right: 1298.42px;
+top: 70.61px;
+
+background: #141416;
+
+
+/* Vector */
+
+position: absolute;
+width: 44.17px;
+height: 7.73px;
+right: 1298.42px;
+top: 61.56px;
+
+background: #141416;
+
+}
+
+.SearchBox {
+    /* Search Box */
+
+position: absolute;
+width: 348.45px;
+height: 57px;
+left: 766px;
+top: 46px;
+
+
+
+/* bg */
+
+position: absolute;
+width: 348.45px;
+height: 57px;
+right: 325.55px;
+top: 46px;
+
+background: #EDEDED;
+border-radius: 14.8846px;
+
+}
+
+.SearchBar {
+/* Group 427320328 */
+
+position: absolute;
+width: 244.23px;
+height: 21.51px;
+left: 788.58px;
+top: 64px;
+
+
+
+/* Search Art Work / Creator */
+
+position: absolute;
+width: 197px;
+height: 18px;
+right: 407.19px;
+top: 65.08px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15.7115px;
+line-height: 117.5%;
+/* or 18px */
+letter-spacing: -0.02em;
+
+color: #C2C3CB;
+
+
+
+/* Group 427320327 */
+
+position: absolute;
+width: 21.51px;
+height: 21.51px;
+left: 788.58px;
+top: 64px;
+
+
+
+/* stroke */
+
+position: absolute;
+width: 16.73px;
+height: 16.73px;
+right: 634.69px;
+top: 64px;
+
+border: 1.79246px solid #9D9D9D;
+
+
+/* stroke */
+
+position: absolute;
+width: 7.17px;
+height: 7.17px;
+right: 629.91px;
+top: 78.34px;
+
+border: 1.79246px solid #9D9D9D;
+}
